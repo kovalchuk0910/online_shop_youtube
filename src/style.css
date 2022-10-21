@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Products */
+
+.productsList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.priceBlock {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.productPrice {
+    font-weight: 600;
+    font-size: 19px; 
+}
+
+
+.product button {
+    background: linear-gradient(rgb(96, 110, 218), rgb(211, 83, 83));
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.product button:hover {
+    background: linear-gradient(rgb(132, 143, 220), rgb(211, 83, 83));
+}
+
+
+/* Header */
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+.siteLogo {
+    width: 100px;
+}
+
+.cartLink {
+    display: flex;
+    align-items: center;
+}
+.cartLink span {
+    background-color: rgb(248, 88, 88);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+.cartLink img {
+    width: 70px;
+}
+
+.search {
+    display: flex;
+}
+.search input {
+    font-size: 17px;
+    padding: 3px;
+    outline: none;
+}
+.search button {
+    background-color: #cf961b;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Cart */
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.cartItemImg {
+    width: 20%;
+}
+.cartItemInfo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cartItemQuantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 20%;
+}
+.cartItemQuantity button {
+    font-size: 20px;
+}
+
+.cartItemPrice {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.removeCartItem {
+    width: 10%;
+}
+
+.cartItem button {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cartItem button img{
+    width: 30px;
+}
+
